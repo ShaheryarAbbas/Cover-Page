@@ -1,0 +1,47 @@
+.box1{
+    height: 100px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.818);
+    position: fixed;
+    color: brown;
+    font-size: xx-large;
+    font-style: oblique;
+}
+.box3,.box4,.box5,.box6{
+    display: inline;
+    background-color: black;
+    position: fixed;
+    top: 80px;
+}
+.box3{
+    left: 800px;
+}
+
+.box4{
+    left: 900px;
+}
+.box5{
+    left: 1000px;
+}
+.box6{
+    left: 1100px;
+}
+a:link{
+    color: white;
+
+}
+a:hover{
+    font-size: large;
+    text-decoration: none;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color:pink
+}
+.box2{
+    height: 300px;
+    width: 1200px;
+    background-image: linear-gradient(to top,rgba(9, 36, 237, 0.886),rgb(5, 8, 8));
+}
